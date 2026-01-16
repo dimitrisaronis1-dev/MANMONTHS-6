@@ -58,7 +58,7 @@ else:
     st.error("Could not load logo image.")
 
 # --- Template File Download ---
-TEMPLATE_FILE_URL = "https://github.com/Christos-Papanikolaou/Streamlit_PM_Allocation/raw/main/AM%20TEST%201.xlsx"
+TEMPLATE_FILE_URL = "https://raw.githubusercontent.com/dimitrisaronis1-dev/MANMONTHS-6/main/SPACE%20LOGO_colored%20horizontal.png"
 
 st.write("Fetching template file from GitHub...")
 try:
@@ -491,4 +491,5 @@ else:
                 if proj['reasons']:
                     st.write(f"    Reasons for unallocation: {proj['reasons']}")
         else:
+
             st.success("All person-months were allocated successfully.")
