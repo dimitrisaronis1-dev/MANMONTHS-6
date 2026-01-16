@@ -1,5 +1,0 @@
-streamlit
-openpyxl
-python-dateutil
-pandas
-requests
